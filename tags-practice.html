@@ -1,8 +1,101 @@
 <html>
     <head>
-        <title> </title>
+        <title>HTML Tags Cheat Sheet </title>
     </head>
     <body>
+        <h1 id="top-of-page">HTML Tags Cheat Sheet</h1>
+
+        <h2> Table of Contents </h2>
+        <ul>
+            <li> <a href="#headings">
+                Headings
+            </a></li>
+            <li> <a href="#lists">
+                Lists
+            </a></li>
+            <li> <a href="#anchors">
+                Anchors
+            </a></li>
+            <li> <a href="#te">
+                Text Emphasis
+            </a></li>
+            <li> <a href="#org">
+                Organizing Content
+            </a></li>
+            <li> <a href="#break">
+                Breaks
+            </a></li>
+        </ul>
+
+        <h2 id="headings"> Headings</h2>
+        <p> Headings help identify blocks and sections, every page must have an H1</p>
+
+        <h2 id="lists"> Lists</h2>
+        <h3> Unordered Lists</h3>
+        <p> Unordered lists are marked with bullet pointsand go in  'ul' tags. Each item goes in 'li' tags.</p>
+        <h4> Types of Lists:</h4>
+        <ul>
+            <li> Unordered lists ('ul')</li>
+            <li> Ordered lists ('ol') </li>
+        </ul>
+
+        <h3> Ordered lists</h3>
+        <p> Orderedd lists are numbered and go in 'ol' tags. Each list item goes in an 'li' tag.</p>
+        <h4> Polya's Problem solving Framework </h4>
+        <ol>
+            <li>Understand the problem</li>
+            <li>Come up with a plan</li>
+            <li>Carry out the plan</li>
+            <li>Go back and improve your solution</li>
+        </ol>
+
+        <h2 id="anchors">Anchors (i.e. links)</h2>
+        <p>
+            Anchor tags create links to other pages. The URL goes in the 'href' attribute.
+            <a href = "https://duckduckgo.com">
+                Go to DuckDuckGo to search for more information
+            </a>
+        </p>
+        <p>
+            Setting 'target="_blank"' will open the link in a new window.
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+                MDN
+            </a>
+        </p>
+
+        <p>
+            <a href="#top-of-page">
+                Jump to top of page.
+            </a>
+        </p>
+
+        <h2 id="te"> Text Emphasis</h2>
+            <h3> Italics</h3>
+                <em> the 'em' element adds emphasis to the text within the opening and closing tags. This shows up as Italics in most browsers.</em>
+            <h3>Bold</h3>
+                <strong> Use the 'strong' element to make things bold.</strong>
+
+        <h2 id="org"> Organizing Content with 'div' and 'span'</h2>
+            <h3> 'div'</h3>
+                <p>
+                    The 'div' element is a block element, so each 'div' will show up on a new line.
+                </p>
+                <div> 1st div </div>
+                <div> 2nd div </div>
+                <div> 3rd div </div>
+            <h3> 'span' </h3>
+                <p>
+                    The 'span' element is an inline element, so there will be no line break between each 'span'.
+                </p>
+                <span> 1st span </span>
+                <span> 2nd span </span>
+                <span> 3rd span </span>
+        <h2 id="break"> Breaking text using the 'br' tag </h2>
+        <p>
+            HTML is <br>
+            Useful for styling pages <br>
+            It's very pretty <br>
+        </p>
 
     </body>
 </html>
